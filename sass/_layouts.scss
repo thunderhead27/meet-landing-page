@@ -17,8 +17,7 @@ body {
 .container {
   flex: 0 0 327px;
 
-  padding: 48px 0;
-
+  padding-top: 48px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -135,6 +134,7 @@ body {
 
   @include desktop {
     width: 100%;
+    height: 300px;
     display: flex;
     align-items: center;
 
@@ -148,7 +148,7 @@ body {
     @include desktop {
       display: grid;
       grid-template-columns: 2fr 2fr 1fr;
-      padding: 110px 165px;
+      padding: 90px 165px;
       text-align: start;
     }
   }
