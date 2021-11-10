@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>Frontend Mentor | Meet landing page</title>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="./assets/logo.svg" alt="logo" class="header__logo" />
+    </header>
+    <section class="hero">
+      <picture class="hero__left">
+        <source srcset="./assets/desktop/image-hero-left.png" media="(min-width: 1440px)" />
+        <img class="hero__mobile" src="./assets/tablet/image-hero.png" alt="" />
+      </picture>
+      <div class="hero__header">
+        <h1 class="hero__header--heading">Group Chat for Everyone</h1>
+        <p class="hero__header--text">
+          Meet makes it easy to connect with others face-to-face virtually and
+          collaborate across any device.
+        </p>
+        <div class="btn">
+          <button class="btn--1 btn--green">
+            Download <span class="version">v1.3</span>
+          </button>
+          <button class="btn--2 btn--purple">What is it?</button>
+        </div>
+      </div>
+      <picture class="hero__right">
+        <source srcset="./assets/desktop/image-hero-right.png" media="(min-width: 1440px)" />
+        <img src="" alt="" />
+      </picture>
+    </section>
+    <div class="divider">
+      <div class="divider__border"></div>
+      <div class="divider__circle">
+        <div class="divider__circle--number">01</div>
+      </div>
+    </div>
+    <div class="gallery">
+      <img src="./assets/desktop/image-woman-in-videocall.jpg" class="gallery--img" alt="womanvideocall" />
+      <img src="./assets/desktop/image-women-videochatting.jpg" class="gallery--img" alt="womenvideochatting" />
+      <img src="./assets/desktop/image-men-in-meeting.jpg" class="gallery--img" alt="meninmeeting" />
+      <img src="./assets/desktop/image-man-texting.jpg" class="gallery--img" alt="mantexting" />
+    </div>
+    <section class="main">
+      <div class="main__text">
+        <p class="main__text--top overline">built for modern use</p>
+        <h2 class="main__text--heading">
+          Smarter meetings, all in one place
+        </h2>
+        <p class="main__text--desc">
+          Send messages, share files, show your screen, and record your
+          meetings — all in one workspace. Control who can join with
+          invite-only team access, data encryption, and data export.
+        </p>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="divider footer__divider">
+        <div class="divider__border"></div>
+        <div class="divider__circle">
+          <div class="divider__circle--number divider__circle--number--2">
+            02
+          </div>
+        </div>
+      </div>
+      <div class="footer__container">
+        <h2 class="footer__heading">Experience more together</h2>
+        <p class="footer__desc">
+          Stay connected with reliable HD meetings and unlimited one-on-one
+          and group video sessions.
+        </p>
+        <button class="btn--1 btn--purple">
+          Download <span class="version">v1.3</span>
+        </button>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
